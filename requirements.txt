@@ -1,0 +1,10 @@
+mss==7.0.1
+numpy==1.24.3
+opencv-python==4.10.0.84
+tensorflow==2.12.1
+keras==2.12.0
+pytesseract==0.3.13
+transformers==4.46.3
+nltk==3.8.1
+googletrans==4.0.0rc1
+firebase-admin==6.6.0

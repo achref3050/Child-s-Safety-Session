@@ -40,6 +40,9 @@ The project uses the following tools and technologies:
 ### 1. Real-time Nudity Detection
 Detects inappropriate content in screenshots using a MobileNet-based pre-trained model. Frames are processed in real-time to evaluate their NSFW content.
 
+<img src="screenshots/testing.jpeg" width="300"/>
+<img src="screenshots/detection.jpeg" width="300"/>
+
 ### 2. Text Extraction and Analysis
 - **Text Extraction**: Uses Tesseract OCR for extracting textual content from screenshots.
 - **Translation**: Integrates Google Translate for language detection and translation to English.
@@ -49,11 +52,15 @@ Detects inappropriate content in screenshots using a MobileNet-based pre-trained
 Logs the following events in the Firebase Realtime Database:
 - NSFW content detections.
 - Toxic text detections.
+  
+  <img src="screenshots/firebase.jpg" width="750"/>
 
 ### 4. iOS Notifier App
 The iOS app is designed for parents to receive real-time notifications about detections. It integrates directly with Firebase to fetch logs and display alerts.
 
----
+<img src="screenshots/parentdark.png" width="300"/>
+<img src="screenshots/parentbright.png" width="300"/>
+
 
 ## Setup
 

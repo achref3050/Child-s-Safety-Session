@@ -180,4 +180,3 @@ if __name__ == "__main__":
         process_frames(interval=10)
     else:
         print("Firebase connection failed. Exiting.")
-
